@@ -1,5 +1,5 @@
 ﻿/**
- * @license Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
+ * @license Copyright (c) 2003-2016, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or http://ckeditor.com/license
  */
 
@@ -13,10 +13,10 @@
  * (1) http://ckeditor.com/builder
  *     Visit online builder to build CKEditor from scratch.
  *
- * (2) http://ckeditor.com/builder/e6b8a045f8f984a69463975ca3e6524a
+ * (2) http://ckeditor.com/builder/ad0b12046f43317ee33dd32986c36c69
  *     Visit online builder to build CKEditor, starting with the same setup as before.
  *
- * (3) http://ckeditor.com/builder/download/e6b8a045f8f984a69463975ca3e6524a
+ * (3) http://ckeditor.com/builder/download/ad0b12046f43317ee33dd32986c36c69
  *     Straight download link to the latest version of CKEditor (Optimized) with the same setup as before.
  *
  * NOTE:
@@ -25,7 +25,7 @@
  */
 
 var CKBUILDER_CONFIG = {
-	skin: 'moono',
+	skin: 'office2013',
 	preset: 'full',
 	ignore: [
 		'.bender',
@@ -34,13 +34,15 @@ var CKBUILDER_CONFIG = {
 		'bender-out.log',
 		'dev',
 		'.DS_Store',
+		'.editorconfig',
 		'.gitattributes',
 		'.gitignore',
-		'Gruntfile.js',
+		'gruntfile.js',
 		'.idea',
 		'.jscsrc',
 		'.jshintignore',
 		'.jshintrc',
+		'less',
 		'.mailmap',
 		'node_modules',
 		'package.json',
@@ -53,6 +55,8 @@ var CKBUILDER_CONFIG = {
 		'basicstyles' : 1,
 		'bidi' : 1,
 		'blockquote' : 1,
+		'brclear' : 1,
+		'btbutton' : 1,
 		'clipboard' : 1,
 		'colorbutton' : 1,
 		'colordialog' : 1,
@@ -69,10 +73,12 @@ var CKBUILDER_CONFIG = {
 		'font' : 1,
 		'format' : 1,
 		'forms' : 1,
+		'glyphicons' : 1,
 		'horizontalrule' : 1,
 		'htmlwriter' : 1,
 		'iframe' : 1,
 		'image' : 1,
+		'imageresize' : 1,
 		'indentblock' : 1,
 		'indentlist' : 1,
 		'justify' : 1,
@@ -86,6 +92,7 @@ var CKBUILDER_CONFIG = {
 		'pagebreak' : 1,
 		'pastefromword' : 1,
 		'pastetext' : 1,
+		'placeholder' : 1,
 		'preview' : 1,
 		'print' : 1,
 		'removeformat' : 1,
@@ -101,12 +108,15 @@ var CKBUILDER_CONFIG = {
 		'stylescombo' : 1,
 		'tab' : 1,
 		'table' : 1,
+		'tableresize' : 1,
 		'tabletools' : 1,
 		'templates' : 1,
 		'toolbar' : 1,
 		'undo' : 1,
+		'widgetbootstrap' : 1,
 		'wsc' : 1,
-		'wysiwygarea' : 1
+		'wysiwygarea' : 1,
+		'youtube' : 1
 	},
 	languages : {
 		'af' : 1,
@@ -119,6 +129,7 @@ var CKBUILDER_CONFIG = {
 		'cy' : 1,
 		'da' : 1,
 		'de' : 1,
+		'de-ch' : 1,
 		'el' : 1,
 		'en' : 1,
 		'en-au' : 1,
